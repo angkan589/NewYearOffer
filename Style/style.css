@@ -1,7 +1,6 @@
 body{
   max-width: 1320px;
   align-items: center;
-  /* width: 100%; */
   margin-right: 140px;
   margin-left: 140px;
 }
@@ -223,7 +222,7 @@ header{
   margin-bottom: 0px;
 }
 .offer-year p{
-  width: 276px;
+  width: 200px;
   height: 96px;
   font-size: small;
   font-weight: 20px;
@@ -236,4 +235,169 @@ header{
   height: 140px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.main-three{
+  width: 100%;
+  height: 987px;
+}
+.main-three-text{
+  width: 1068px;
+  height: 260px;
+  padding: 0px 126px 64px 126px;
+  text-align: center;
+  align-items: center;
+}
+.main-three-head{
+  width: 677px;
+  height: 137px;
+  padding: 0px 196px 27px 196px;
+  margin: 0;
+}
+.main-three-head h4{
+  width: 263px;
+  height: 29px;
+  font-size: medium;
+  font-weight: 24px;
+  margin-bottom: 0px;
+  padding: 0px 207px 17px 207px;
+  margin: 0;
+}
+.main-three-head h1{
+  width: 677px;
+  height: 91px;
+  color: #070211;
+  font-weight: bold;
+  font-size: 72px;
+  margin: 0;
+}
+.main-three-span{
+  color: #FF0000;
+}
+.main-three-text p{
+  height: 96px;
+  width: 1068px;
+  font-size: medium;
+  font-weight: 20px;
+  opacity: .7;
+  margin: 0;
+}
+.main-three-img{
+  width: 100%;
+  height: 662px;
+  position: relative;
+  background-image: url("../images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.main-three-img2{
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 300px;
+}
+.body-four{
+  margin-top: 120px;
+  width: 1320px;
+  height: 1163px;
+  margin-bottom: 120px;
+}
+.body-four-text h4{
+  font-size: medium;
+  font-weight: 24px;
+  color: #FF0000;
+  margin: 0;
+}
+.body-four-text h1{
+  font-size: 48px;
+  font-weight: bold;
+  color: #070211;
+  margin: 16px 0px;
+}
+.body-four-text p{
+  width: 896px;
+  font-size: 20px;
+  font-weight: medium;
+  color: #070211;
+  opacity: .4;
+}
+.body-four-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    margin-top: 48px;
+}
+.body-four-img img {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+}
+.last-item{
+  width: 100%;
+  height: 616px;
+  background-color: #FF0000;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+.last-item-text{
+  width: 896px;
+  height: 336px;
+  padding: 80px 212px 48px 212px;
+  align-items: center;
+}
+.last-item-text img{
+  padding: 0px 373px 40px 373px;
+}
+.last-item-text .main-text{
+  width: 896px;
+  height: 146px;
+}
+.main-text{
+  align-items: center;
+}
+.main-text h1{
+  width: 512px;
+  height: 60px;
+  margin: 0;
+  font-size: 48px;
+  font-weight: bold;
+  padding-left: 192px;
+}
+.main-text p{
+  width: 896px;
+  height: 64px;
+  margin-top: 22px;
+  font-size: 20px;
+  font-weight: normal;
+  opacity: .4;
+  text-align: center;
+}
+.subscribe{
+  padding: 0px 0px 80px 0px;
+  width: 648px;
+  position: relative;
+  margin: 0 auto;
+}
+.subscribe input{
+  width: 100%;
+  height: 72px;
+  font-size: medium;
+  font-weight: 18px;
+  border-radius: 80px;
+  padding: 0px 210px 0px 30px;
+  border: none;
+  box-sizing: border-box;
+}
+.subscribe button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 210px;
+  height: 72px;
+  border: none;
+  border-radius: 0px 80px 80px 0px;
+  background-color: #FF0000;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
 }
