@@ -1,10 +1,10 @@
 body{
-  max-width: 1320px;
   align-items: center;
-  margin-right: 140px;
-  margin-left: 140px;
 }
 header{
+  max-width: 1320px;
+  margin-right: 140px;
+  margin-left: 140px;
   align-items: center;
   text-align: center;
   display: flex;
@@ -124,6 +124,11 @@ header{
   border: none;
   font-size: 20px;
   font-weight: bold;
+}
+main{
+  max-width: 1320px;
+  margin-right: 140px;
+  margin-left: 140px;
 }
 .main-one{
   background: linear-gradient(to bottom, #fce1e1 0%, #ffffff 100%);
@@ -400,4 +405,55 @@ header{
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+}
+footer{
+  width: 100%;
+  height: 100%;
+  background-color: #070211;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1183px;
+  height: 80px;
+  padding: 120px 277px 98px 140px;
+}
+.footer .address{
+  width: 275px;
+  height: 80px;
+}
+.footer .contact{
+  width: 249px;
+  height: 80px;
+}
+footer h6{
+  margin: 10px;
+  color: #FFFFFF;
+  font-size: medium;
+  font-weight: 24px;
+}
+.icon{
+  padding: 0px 640px 98px 632px;
+  width: 328px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.icon> img{
+  width: 64px;
+  height: 64px;
+}
+.condition{
+  width: 1320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 140px 120px 140px;
+}
+.contact i{
+  margin-right: 14px;
 }
